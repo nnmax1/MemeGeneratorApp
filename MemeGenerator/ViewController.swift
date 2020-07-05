@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         //set url of the meme api
         let url = URL(string: "https://meme-api.herokuapp.com/gimme")
-        //create an install of URLSession
+        //create an instance of URLSession
         let session = URLSession.shared
         
         //closure
